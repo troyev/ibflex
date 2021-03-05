@@ -147,6 +147,7 @@ class OpenClose(enum.Enum):
 class OrderType(enum.Enum):
     LIMIT = "LMT"
     MARKET = "MKT"
+    MARKETTOLIMIT = "LMT;MKT"
     MARKETONCLOSE = "MOC"
 
 
